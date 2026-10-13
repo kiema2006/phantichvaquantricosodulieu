@@ -225,4 +225,3 @@ SET TongTien = (SELECT SUM(ThanhTien) FROM ChiTietHoaDon WHERE ChiTietHoaDon.MaH
 WHERE MaHD IN (SELECT MaHD FROM HoaDon);
 GO
 
-PRINT N'Đã insert dữ liệu test thành công
